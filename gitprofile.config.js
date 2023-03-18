@@ -2,87 +2,102 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'David Nartey', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 20, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'https://www.linkedin.com/in/david-nartey-bb9722179',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'https://medium.com/@davidnart90',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    telegram: 'David Nart',
+    website: 'https://davidnart.netlify.app/',
+    phone: '+233551687501',
+    email: 'davidnart90@gmailcom',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'Python',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'JavaScript',
+    'Django',
+    'Tableau',
+    'PowerBI',
+    'Flask',
+    'Git',
+    'Wordpress',
+    'Excel',
+    'Machine Learning',
+    'API',
+    'Pyscript'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'FixedByte',
+      position: 'Trainee Programme',
+      from: 'June 2022',
+      to: 'August 2022',
+      companyLink: 'https://fixedbyte.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'FloodGates Solutions',
+      position: 'Software Engineer (Remote)',
+      from: 'November 2022',
+      to: 'Present',
+      companyLink: 'https://floodgates.solutions/',
+    },
+    {
+      company: 'King Jesus School',
+      position: 'Tutor',
+      from: 'February 2023',
+      to: 'Present',
+      companyLink: '',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'AWS Machine Learning Foundations 2022',
+      body: 'A certificate of completion from Udacity',
+      year: 'November 2022',
+      link: 'confirm.udacity.com/NTGWDKAY'
     },
-  ], */
+    
+    {
+      name: 'Shape AI Webdevelopment with Boostrap',
+      body: 'Developers Student Clubs Certification',
+      year: 'November 2022',
+      link: 'https://cert.shapeai.tech/verify/2n57Vx'
+    },
+    
+    {
+      name: 'Machine Learning with Python and R',
+      body: 'A certificate of completion from Udemy',
+      year: 'January 2022',
+      link: 'ude.my/UC-2a102420-68ee-42e3-9aed-51ebde63ce4c'
+    },
+  ], 
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'Kwame Nkurumah University of Science and Technology',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2018',
+      to: '2022',
     },
   ],
 
@@ -105,8 +120,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: '@davidnart90', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
