@@ -107,7 +107,7 @@ const config = {
       title: 'FloodGates Solution Website',
       description:
         'This personal project involves designing a digital marketing mock-up website for an IT startup. The aim is to create user-friendly website that showcases the startups services and products, while also highlighting its unique value proposition.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://floodgates.solutions/',
       link: 'https://floodgates.solutions/',
     },
     {
