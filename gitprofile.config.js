@@ -107,7 +107,7 @@ const config = {
       title: 'FloodGates Solution Website',
       description:
         'This personal project involves designing a digital marketing mock-up website for an IT startup. The aim is to create user-friendly website that showcases the startups services and products, while also highlighting its unique value proposition.',
-      imageUrl: 'https://ibb.co/CmG6mJY',
+      imageUrl: 'https://via.placeholder.com/600x400.png?text=',
       link: 'https://floodgates.solutions/',
     },
     {
@@ -121,7 +121,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: 'David Nart', // to hide blog section, keep it empty
+    username: 'https://medium.com/@davidnart90', // to hide blog section, keep it empty
     limit: 1, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
