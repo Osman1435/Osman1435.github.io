@@ -121,7 +121,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: 'davidnart90', // to hide blog section, keep it empty
+    username: '@davidnart90', // to hide blog section, keep it empty
     limit: 1, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
