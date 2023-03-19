@@ -7,7 +7,7 @@ const config = {
     limit: 20, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Login-Page-Concept', 'Boston-Dataset-LinearRegression ', 'DavidNart90'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
