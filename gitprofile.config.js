@@ -109,14 +109,14 @@ const config = {
       title: 'FloodGates Solution Website',
       description:
         'This personal project involves designing a digital marketing mock-up website for an IT startup. The aim is to create user-friendly website that showcases the startups services and products, while also highlighting its unique value proposition.',
-      imageUrl: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*uQrLhsTuvnC3fpQI4S3B7w.png',
+      imageUrl: 'https://floodgates.solutions/wp-content/uploads/2022/12/image2vector.svg', 
       link: 'https://floodgates.solutions/',
     },
     {
       title: 'Predict It',
       description:
         'Predict It is a mega ML prediction website for every sector of Business. The project is still under construction',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*uQrLhsTuvnC3fpQI4S3B7w.png',
       link: 'https://example.com',
     },
   ],
@@ -124,7 +124,7 @@ const config = {
   blog: {
     source: 'medium', // medium | dev
     username: 'davidnart90', // to hide blog section, keep it empty
-    limit: 1, // How many posts to display. Max is 10.
+    limit: 10, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
