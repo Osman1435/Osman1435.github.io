@@ -45,8 +45,8 @@ const config = {
     'Excel',
     'Machine Learning',
     'Data Science',
-    'Pyscript'
-    'Data Mining'
+    'Pyscript',
+    'Data Mining',
     
   ],
   experiences: [
