@@ -44,8 +44,10 @@ const config = {
     'Wordpress',
     'Excel',
     'Machine Learning',
-    'API',
+    'Data Science',
     'Pyscript'
+    'Data Mining'
+    
   ],
   experiences: [
     {
@@ -75,7 +77,7 @@ const config = {
       name: 'AWS Machine Learning Foundations 2022',
       body: 'A certificate of completion from Udacity',
       year: 'November 2022',
-      link: 'confirm.udacity.com/NTGWDKAY'
+      link: 'https://graduation.udacity.com/confirm/NTGWDKAY'
     },
     
     {
@@ -89,7 +91,7 @@ const config = {
       name: 'Machine Learning with Python and R',
       body: 'A certificate of completion from Udemy',
       year: 'January 2022',
-      link: 'ude.my/UC-2a102420-68ee-42e3-9aed-51ebde63ce4c'
+      link: 'https://www.udemy.com/certificate/UC-2a102420-68ee-42e3-9aed-51ebde63ce4c/'
     },
   ], 
   education: [
@@ -107,7 +109,7 @@ const config = {
       title: 'FloodGates Solution Website',
       description:
         'This personal project involves designing a digital marketing mock-up website for an IT startup. The aim is to create user-friendly website that showcases the startups services and products, while also highlighting its unique value proposition.',
-      imageUrl: 'https://floodgates.solutions/',
+      imageUrl: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*uQrLhsTuvnC3fpQI4S3B7w.png',
       link: 'https://floodgates.solutions/',
     },
     {
