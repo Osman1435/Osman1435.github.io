@@ -2,97 +2,59 @@
 
 const config = {
   github: {
-    username: 'DavidNart90', // Your GitHub org/user name. (Required)
+    username: 'Osman1435', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 20, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: ['Login-Page-Concept', 'Boston-Dataset-LinearRegression ', 'DavidNart90'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Price-forcast-of-Tomatoes-in-Ashanti-Region'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/david-nartey-bb9722179',
-    twitter: '',
+    linkedin: '',
+    twitter: 'https://twitter.com/sthylo4?t=N-_Kz57DnNYhnjdgmQwyfQ&s=09',
     mastodon: '',
-    facebook: '',
-    instagram: '',
+    facebook: 'http://www.facebook.com/profile.php?id=100088449301779',
+    instagram: 'dhy_sthylo_4',
     dribbble: '',
     behance: '',
-    medium: 'https://medium.com/@davidnart90',
+    medium: '',
     dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
-    telegram: 'David Nart',
-    website: 'https://davidnart.netlify.app/',
-    phone: '+233551687501',
-    email: 'davidnart90@gmailcom',
+    telegram: 'Dhy Sthylo',
+    website: '',
+    phone: '+233553248376',
+    email: 'usmanmuba99@gmail.com',
   },
   resume: {
     fileUrl:
       ' ', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Python',
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Django',
-    'Tableau',
-    'PowerBI',
-    'Flask',
-    'Git',
-    'Wordpress',
+   
+    'word',
     'Excel',
-    'Machine Learning',
-    'Data Science',
-    'Pyscript',
-    'Data Mining',
+    'R Sotfware',
     
   ],
   experiences: [
     {
-      company: 'FixedByte',
-      position: 'Trainee Programme',
-      from: 'June 2022',
-      to: 'August 2022',
-      companyLink: 'https://fixedbyte.com/',
+      company: 'Fludo Cocoa Company',
+      position: 'Assistant accountant',
+      from: 'July 2021',
+      to: ' Dec  2021',
+      companyLink: 'https://fludococoa.gh/',
     },
     {
-      company: 'FloodGates Solutions',
-      position: 'Software Engineer (Remote)',
+      company: 'Department of Teacher Education, Kwame Nkrumah University of Science and Technology, Kumasi',
+      position: 'Teaching and Administrative Assistant',
       from: 'November 2022',
       to: 'Present',
-      companyLink: 'https://floodgates.solutions/',
+      companyLink: 'https://dte.knust.edu.gh/',
     },
-    {
-      company: 'King Jesus School',
-      position: 'Tutor',
-      from: 'February 2023',
-      to: 'Present',
-      companyLink: '',
-    },
-  ],
-  certifications: [
-    {
-      name: 'AWS Machine Learning Foundations 2022',
-      body: 'A certificate of completion from Udacity',
-      year: 'November 2022',
-      link: 'https://graduation.udacity.com/confirm/NTGWDKAY'
-    },
-    
-    {
-      name: 'Shape AI Webdevelopment with Boostrap',
-      body: 'Developers Student Clubs Certification',
-      year: 'November 2022',
-      link: 'https://cert.shapeai.tech/verify/2n57Vx'
-    },
-    
-    {
-      name: 'Machine Learning with Python and R',
-      body: 'A certificate of completion from Udemy',
-      year: 'January 2022',
-      link: 'https://www.udemy.com/certificate/UC-2a102420-68ee-42e3-9aed-51ebde63ce4c/'
-    },
+   
+ 
   ], 
   education: [
     {
@@ -106,25 +68,25 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'FloodGates Solution Website',
+      title: '',
       description:
-        'This personal project involves designing a digital marketing mock-up website for an IT startup. The aim is to create user-friendly website that showcases the startups services and products, while also highlighting its unique value proposition.',
-      imageUrl: 'https://floodgates.solutions/wp-content/uploads/2022/12/image2vector.svg', 
-      link: 'https://floodgates.solutions/',
+        '',
+      imageUrl: '', 
+      link: '',
     },
     {
-      title: 'Predict It',
+      title: '',
       description:
-        'Predict It is a mega ML prediction website for every sector of Business. The project is still under construction',
-      imageUrl: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*uQrLhsTuvnC3fpQI4S3B7w.png',
-      link: 'https://example.com',
+        '',
+      imageUrl: '',
+      link: '',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'medium', // medium | dev
-    username: 'davidventuri', // to hide blog section, keep it empty
-    limit: 10, // How many posts to display. Max is 10.
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: , // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
