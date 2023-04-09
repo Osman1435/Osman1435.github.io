@@ -32,11 +32,9 @@ const config = {
       ' ', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-   
     'word',
     'Excel',
-    'R Sotfware',
-    
+    'R Sotfware', 
   ],
   experiences: [
     {
@@ -53,8 +51,6 @@ const config = {
       to: 'Present',
       companyLink: 'https://dte.knust.edu.gh/',
     },
-   
- 
   ], 
   education: [
     {
@@ -86,7 +82,7 @@ const config = {
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
-    limit: , // How many posts to display. Max is 10.
+    limit: '', // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
